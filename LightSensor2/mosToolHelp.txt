@@ -1,0 +1,13 @@
+# Mos Commands
+# MQTT client would not work I had to run this Commands
+ .\mos.exe aws-iot-setup --aws-iot-policy mos-default --aws-region=us-east-1
+
+ # I had to be on the codejam network
+.\mos.exe wifi ssid pwd
+
+# I saw the files on the chip
+ .\mos.exe ls
+
+# I can run the tool from powershell (as admin) 
+.\mos.exe
+

@@ -1,0 +1,21 @@
+{
+  "device": {
+    "id": "BIG_NODEMCU-01"
+  },
+  "mqtt": {
+    "enable": true,
+    "server": "adynoj7ucl19w.iot.us-east-1.amazonaws.com:8883",
+    "ssl_cert": "aws-iot-1263a5778f.crt.pem",
+    "ssl_key": "aws-iot-1263a5778f.key.pem",
+    "ssl_ca_cert": "ca.pem"
+  },
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "guest"
+    },
+    "ap": {
+      "enable": false
+    }
+  }
+}
